@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenhos Antigos</title>
+    <style>
+
+
+body {
+    margin: 0 auto;
+    max-width: 1440px;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+
+
+    color: #282a36;
+}
+
+
+h2{
+    color:white;
+}
+p {
+    text-decoration: none;
+    color: #0026ff;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body > * {
+    background-color:limegreen;
+}
+
+.conteudo {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+}
+
+.conteudo > nav {
+    order: -1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.conteudo > nav a {
+    background-color: #282a36;
+    color: #ffff00;
+    border-radius: 10px;
+    margin: 0 0 5px 0;
+    padding: 2px;
+    text-align: center;
+    min-width: 100px;
+}
+
+.conteudo > nav a:hover {
+    background-color: #44475a;
+}
+
+.conteudo > nav a.atual {
+    background-color: #44475a;
+}
+
+.conteudo > main {
+    flex: 1;
+    background-color: #ffff00;
+    padding: 0 20px;
+}
+
+.conteudo > main > h2 {
+    position: sticky;
+    top: 0;
+    background-color: #ff006aee;
+}
+
+.conteudo > main img {
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.conteudo > aside {
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.conteudo > aside > a {
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+body > header {
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+body > header small {
+    display: block;
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+body > header > a  {
+    display: none;
+}
+
+body > footer {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+body > footer > img {
+    border-radius: 50%;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+}
+
+    body > header > a {
+        display: block;
+        float: left;
+    }
+
+    body > header img {
+        display: block;
+        max-height: 80px;
+        margin-right: 30px;
+    }
+
+
+
+    </style>
+    
+</head>
+<body>
+    <header>
+        <center><div>Desenhos animados</div></center>
+    </header>
+    <div class="conteudo">
+        <main>
+            <h2>DESENHOS ANTIGOS.</h2>
+
+
+            <p>caverna do dragão, é um dos desenhos mais antigos já visto na televisão</p>
+            <img src="cavena-do-dragão.jpg" alt="">
+            <p>basicamente, o desenho trata-se de um grupo de amigos que queria voltar para casa, mas sempre que</p>
+            <p>tentavam voltar, acontecia coisas sobrenaturais que os impediam de voltar.</p>
+
+
+            <img src="pica pau.jpg" alt="">
+            <p>Pica pau é a ave mais travessa e engraçada da televisão brasileira</p>
+
+
+            <img src="spectro.jpg" alt="">
+            <p>Spectreman era considerado o Power Ranger da época</p>
+           
+
+
+            <img src="monstrinhos.jpg" alt="">
+            <p>uma família de monstrinhos nada monstruosa</p>
+            
+        </main>
+       
+    </div>
+
+</body>
+</html>
